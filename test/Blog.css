@@ -1,17 +1,28 @@
 *{
     margin: 0px;
     padding: 0px;
-
 }
+
 body{
     height: 100%;
 }
-
+.nav{
+    max-width: 100%;
+    min-height: 50px;
+    background-color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav span{
+    color: white;
+}
 .avatar img{
     max-width: 250px;
 }
 .avatar{
-    margin-top: 9%;
+    margin-top: 5%;
     position: relative;
 }
 .index{
